@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Perfil - Bora 🥂</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='estilo.css'>
+    
+</head>
+<body>
+    <header>
+        <div class="logo-titulo">
+            <h1>Bora</h1>
+            <img src="imagem-sem-fundo.png" class="logo">
+        </div>
+           
+        <nav>
+            <a href="site.html">Início</a>
+            <a href="noite.html">Pela noite</a>
+            <a href="dia.html">Pelo dia</a>
+            <a href="promoções.html">Promoções</a>
+            <a href="Perfil.html"class="active">Perfil</a>
+        </nav>
+    </header>
+    <section class="p">
+        <p>Olá, seja bem vindo(a)! Você ainda não fez o seu cadastro :(<br>Preencha o formulário abaixo e Bora cadastrar-se!</p>
+      </section>
+      <section>
+        <div class="coluna-perfil">
+            
+            <h2>Cadastre-se para receber recomendações personalizadas.</h2>
+        <form action="form_enviado.html" method="POST" >
+            <label for="nome">Nome Completo:</label>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="senha" placeholder="Digite sua senha" required>
+
+            <label for="confirmar-senha">Confirmar Senha:</label>
+            <input type="password" id="confirmar-senha" name="confirmar_senha" placeholder="Confirme sua senha" required>
+            <label for="opções">Quais lugares você gosta mais</label>
+            <div>
+                <label><input type="checkbox" name="interesses[]" value="Restaurante">Restaurante</label>
+                <label><input type="checkbox" name="interesses[]" value="Museu">Museu</label>
+                <label><input type="checkbox" name="interesses[]" value="Jogos">Jogos</label>
+                <label><input type="checkbox" name="interesses[]" value="Sorveteria">Sorveteria</label>
+                <label><input type="checkbox" name="interesses[]" value="cinema">Cinema</label>
+            </div>
+            <label for="opções">Quais comidas você gosta mais? </label>
+            <div>
+                <label><input type="checkbox" name="interesses[]" value="Massas">Massas</label>
+                <label><input type="checkbox" name="interesses[]" value="culinárias culturais">Culinarias culturais</label>
+                <label><input type="checkbox" name="interesses[]" value="Oriental">Oriental</label>
+                <label><input type="checkbox" name="interesses[]" value="Tradicional">Tradicional</label>
+                <label><input type="checkbox" name="interesses[]" value="Doces">Doces</label>
+            </div>
+
+            <button class="b" type="submit">Cadastrar</button>
+        </form>          
+    </div>
+    <footer> <div>
+        <p>©2024 - politica de privacidade do Bora</p>
+              <p>Deseja cadastrar o seu comércio? entre em contato conosco por annacarolina78595@gmail.com</p>
+              <p>Muito obrigada por acessar o nosso Site!</p>
+      </div>
+      </footer>       
+            
+</body>
+</html>
